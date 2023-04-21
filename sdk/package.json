@@ -1,6 +1,6 @@
 {
   "name": "ton-play-sdk",
-  "version": "0.0.18",
+  "version": "0.1.0",
   "description": "TON Play Typescript SDK",
   "main": "dist/TonPlayClient.js",
   "types": "dist/TonPlayClient.d.ts",
@@ -13,7 +13,7 @@
   "keywords": ["ton", "tonplay", "sdk", "TON SDK", "TON Play SDK", "GameFi", "NFT Marketplace SDK"],
   "homepage": "https://tonplay.io/",
   "repository": {
-    "url": "https://gitlab.com/ton-play/typescript-sdk"
+    "url": "https://github.com/ton-play/tonplay-typescript-sdk"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.57.1",
