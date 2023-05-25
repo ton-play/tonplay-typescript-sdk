@@ -1,6 +1,6 @@
 {
   "name": "ton-play-sdk",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "TON Play Typescript SDK",
   "main": "dist/TonPlayClient.js",
   "types": "dist/TonPlayClient.d.ts",
