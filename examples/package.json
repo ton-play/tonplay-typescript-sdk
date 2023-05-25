@@ -13,7 +13,7 @@
   "dependencies": {
     "@types/node": "^18.15.11",
     "dotenv": "^16.0.3",
-    "ton-play-sdk": "^0.0.18"
+    "ton-play-sdk": "../sdk"
   },
   "devDependencies": {
     "typescript": "^5.0.4"

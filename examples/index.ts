@@ -1,6 +1,7 @@
-import { TonPlayClient, BuyItemRequestDTO } from "ton-play-sdk";
+import { TonPlayClient } from "ton-play-sdk";
 import { examples } from "./examples";
 import dotenv from 'dotenv';
+import { BuyItemRequestDTO } from "ton-play-sdk/dist/Models";
 dotenv.config();
 
 const xAuthTonplay = process.env.X_AUTH_TONPLAY?.toString();
@@ -20,8 +21,7 @@ tonPlay.getSalesByGame(gameKey).then(items => {
 }).then(itemOnSale => tonPlay.buy(new BuyItemRequestDTO({
     type: itemOnSale.type,
     address: itemOnSale.address,
-    sellerAddress: itemOnSale.seller?.address,
-    sellerUid: itemOnSale.seller?.identifier,
+    sellerAddress: itemOnSale.seller!.address!,
     amount: buyAmount,
     buyerAddress: buyerAddress,
 }))).then(response => console.log('Link to buy: ' + response.url)).catch(r => console.log('Error: ' + r));

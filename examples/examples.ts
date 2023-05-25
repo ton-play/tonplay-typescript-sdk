@@ -1,4 +1,5 @@
-import { AssetDeployResponseDTO, AssetType, BurnAssetRequestDTO, BuyItemRequestDTO, CheckTokenResponseDTO, CreateCollectionRequestDTO, CreateSingleItemRequestDTO, GameWithdrawalRequestDTO, GateUserResponseDTO, MintNewCollectableRequestDTO, MintNewSftTokenRequestDTO, PageableImplAssetDTO, PageableImplAssetLiteDTO, RoyaltyDTO, TonPlayClient, TransferAssetRequestDTO } from "ton-play-sdk";
+import { TonPlayClient } from "ton-play-sdk";
+import { AssetDeployResponseDTO, AssetType, BurnAssetRequestDTO, BuyItemRequestDTO, CheckTokenResponseDTO, CreateCollectionRequestDTO, CreateSingleItemRequestDTO, GameWithdrawalRequestDTO, GateUserResponseDTO, MintNewCollectableRequestDTO, MintNewSftTokenRequestDTO, PageableImplAssetDTO, PageableImplAssetLiteDTO, RoyaltyDTO, TransferAssetRequestDTO } from "ton-play-sdk/dist/Models";
 
 const USER_TON_ADDRESS = 'EQ...';
 const USER_JWT = 'j.w.t';
